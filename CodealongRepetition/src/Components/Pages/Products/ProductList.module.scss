@@ -1,0 +1,23 @@
+.PLwrapper {
+    background-color: black;
+    border: solid 1px white;
+    figure {
+        color: white;
+        display: flex;
+        align-items: center;
+    figcaption {
+        margin: 1em;
+        h3 {
+            padding:1em;
+        }
+        button {
+            padding: 1em;
+            font-size: 10pt;
+            background-color: rgb(64, 154, 64);
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    }
+}
+}
