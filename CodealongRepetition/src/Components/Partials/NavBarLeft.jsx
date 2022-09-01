@@ -43,7 +43,7 @@ export const NavBarLeft = () => {
             return (
               <li key={group.id}>
                 <Link
-                  to={"./"}
+                  to={"/products"}
                   onClick={() => {
                     getSubmenu(group.id);
                   }}

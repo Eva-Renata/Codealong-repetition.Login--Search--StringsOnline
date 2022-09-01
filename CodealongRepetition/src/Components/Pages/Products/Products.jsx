@@ -8,7 +8,10 @@ export const Products = () => {
 
   return (
     // Kalder Layout component med title som props
-    <Layout title="Layout titel:Produkter">
+    <Layout
+      title="Layout titel:Produkter"
+      description="Layout description:Se vores udvalg af instrumenter"
+    >
       {/* Eksempel på tracking af om bruger er logget ind */}
       {/* Vi kan sætte den til at vise noget hvis vi er logget ind, og ingenting hvis vi ikke er logget ind */}
       {!loginData ? (
