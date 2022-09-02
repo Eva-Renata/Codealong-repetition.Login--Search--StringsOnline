@@ -3,6 +3,7 @@ import styles from "../Products/Scss/ProductList.module.scss";
 
 //props kommer fra PoductList (product)
 export const ProductListItem = (props) => {
+  //or we could do also : const data = props.data; in order to write less code;
   return (
     <div className={styles.PLwrapper}>
       <figure>

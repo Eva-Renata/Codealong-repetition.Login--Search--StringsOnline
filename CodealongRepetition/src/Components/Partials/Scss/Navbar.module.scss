@@ -1,0 +1,56 @@
+.navbar {
+    //style not working
+    //can try later with react icon instead
+    div.hamburger_menu_wrapper_toggle {
+            display: absolute !important;
+            z-index: 2;
+            right: 0;
+            top: 0;
+            width:2em;
+            height:2em;
+            padding-bottom:3em;
+        }
+background-color: lightgrey;
+.desktop_nav{
+    ul{
+        list-style: none;
+        padding:1em;
+        li {
+            a {
+                color: green;
+            }
+        }
+      
+    }   
+}
+.tabletmobil_nav {
+    display: none;
+    ul {
+            list-style: none;
+            padding: 1em;
+            li {
+                a {
+                    color: green;
+                }
+            }
+    
+        }
+}
+
+
+//mediaqueries for tablet and mobile
+@media (max-width: 1000px){
+    .desktop_nav{
+        display: none;
+    }
+    .tabletmobil_nav{
+        display:block;
+    }
+}
+.hamburger_menu_wrapper_toggle{
+    //only on width more than 850 is not visible
+    @media screen and (min-width: 1000px) {
+        display: none;
+    }
+ }
+}
